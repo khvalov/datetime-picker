@@ -16,7 +16,7 @@ final class JQueryProviderAsset extends AssetBundle
     /**
      * @phpstan-var array<array-key, mixed>
      */
-    public $depends = [DateTimePickerAsset::class];
+    public $depends = ['yii\web\JqueryAsset',DateTimePickerAsset::class];
 
     public function __construct()
     {
